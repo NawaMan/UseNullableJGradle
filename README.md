@@ -1,7 +1,7 @@
 # UseNullablejGradle
 Example of how to use NullableJ in a Gradle project.
 
-It basically boiled down to adding dssb maven repository (hosted by github).
+It basically boils down to adding NawaMan maven repository (hosted by github).
 
 ```Groovy
 repositories {
@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.16.16'
-    compile     'nawaman:nullablej:0.3.0'
+    compile     'nawaman:nullablej:0.4.0'
 }
 ```
 
