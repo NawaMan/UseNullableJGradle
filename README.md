@@ -1,4 +1,7 @@
 # UseNullableJGradle
+
+![alt "Build status"](https://travis-ci.org/NawaMan/UseNullableJGradle.svg?branch=master)
+
 Example of how to use NullableJ in a Gradle project.
 
 It basically boils down to adding NawaMan maven repository (hosted by github).
