@@ -1,3 +1,3 @@
 <factorypath>
-    <factorypathentry kind="WKSPJAR" id="/UseNullablejGradle/buildlibs/nullablej-3.1.0.0.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/nawaman/nullablej/3.1.0.0/nullablej-3.1.0.0.jar" enabled="true" runInBatchMode="false"/>
 </factorypath>
