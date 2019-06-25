@@ -8,18 +8,12 @@ repositories {
 }
 
 dependencies {
-    compileOnly         'io.nullablej:nullablej:4.0.1.0'
-    annotationProcessor 'io.nullablej:nullablej:4.0.1.0'
-    
-    compileOnly         'org.projectlombok:lombok:1.18.8'
-    annotationProcessor 'org.projectlombok:lombok:1.18.8'
+    compile 'io.nullablej:nullablej:4.0.1.0'
+    compile 'org.projectlombok:lombok:1.18.8'
     
     
     testCompile 'junit:junit:4.12'
     
-    testCompile             'io.nullablej:nullablej:4.0.1.0'
-    testAnnotationProcessor 'io.nullablej:nullablej:4.0.1.0'
-    
-    testCompile             'org.projectlombok:lombok:1.18.8'
-    testAnnotationProcessor 'org.projectlombok:lombok:1.18.8'
+    testCompile 'io.nullablej:nullablej:4.0.1.0'
+    testCompile 'org.projectlombok:lombok:1.18.8'
 }
