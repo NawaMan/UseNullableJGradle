@@ -1,6 +1,6 @@
 package use.nullablej.gradle;
 
-import nawaman.nullablej.nullvalue.processor.NullValue;
+import nullablej.nullvalue.processor.NullValue;
 
 @SuppressWarnings("javadoc")
 public class PhoneNumber {

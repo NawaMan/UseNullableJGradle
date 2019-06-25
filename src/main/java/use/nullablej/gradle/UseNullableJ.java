@@ -2,9 +2,8 @@ package use.nullablej.gradle;
 
 import lombok.val;
 import lombok.experimental.ExtensionMethod;
-import nawaman.nullablej.NullableJ;
+import nullablej.NullableJ;
 
-@SuppressWarnings("javadoc")
 @ExtensionMethod({ NullableJ.class })
 public class UseNullableJ {
     
@@ -12,8 +11,8 @@ public class UseNullableJ {
         val string = null;
         System.out.println(string._isNull());   // Prints 'true'.
         
-        System.out.println("42"          ._whenMatches("^[0-9]+$").map(Integer::parseInt).orElse(-1));  // Prints 42
-        System.out.println(((String)null)._whenMatches("^[0-9]+$").map(Integer::parseInt).orElse(-1));  // Prints -1
+        System.out.println(NullableJ._whenMatches("42"        , "^[0-9]+$").map(Integer::parseInt).orElse(-1));  // Prints 42
+        System.out.println(NullableJ._whenMatches((String)null, "^[0-9]+$").map(Integer::parseInt).orElse(-1));  // Prints -1
     }
     
 }
